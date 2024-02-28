@@ -34,16 +34,16 @@
                     </svg>
                 </x-sidebar-menu-item>
 
-                <x-sidebar-menu-item route="Pertanyaan User" label="Pertanyaan User"
+                <!-- <x-sidebar-menu-item route="Pertanyaan User" label="Pertanyaan User"
                     currentRoute="{{ request()->route()->getName() }}">
                     <svg xmlns="http://www.w3.org/2000/svg" width="12px" heigth="12px"
-                        viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                        viewBox="0 0 512 512">!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.
                         <path class="{{ request()->is('CompanyQuestion') ? 'fill-white' : '' }}"
                             d="M399 384.2C376.9 345.8 335.4 320 288 320H224c-47.4 0-88.9 25.8-111 64.2c35.2 39.2 86.2 63.8 143 63.8s107.8-24.7 143-63.8zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm256 16a72 72 0 1 0 0-144 72 72 0 1 0 0 144z" />
                     </svg>
-                </x-sidebar-menu-item>
+                </x-sidebar-menu-item> -->
 
-                <x-sidebar-menu-item route="Service Perusahaan" label="Service Perusahaan"
+                <x-sidebar-menu-item route="Service Perusahaan" label="Product Perusahaan"
                     currentRoute="{{ request()->route()->getName() }}">
                     <svg xmlns="http://www.w3.org/2000/svg" width="14px" height="14px"
                         viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.-->
@@ -52,14 +52,14 @@
                     </svg>
                 </x-sidebar-menu-item>
 
-                <x-sidebar-menu-item route="Keunggulan Perusahaan" label="Keunggulan Perusahaan"
+                <!-- <x-sidebar-menu-item route="Keunggulan Perusahaan" label="Keunggulan Perusahaan"
                     currentRoute="{{ request()->route()->getName() }}">
                     <svg width="12px" height="12px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
                         <title>company-exelences</title>
                         <path class="{{ request()->is('CompanyExcellence') ? 'fill-white' : '' }}"
                             d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z" />
                     </svg>
-                </x-sidebar-menu-item>
+                </x-sidebar-menu-item> -->
 
 
                 <x-sidebar-menu-item route="Pertanyaan Perusahaan" label="FAQ Perusahaan"
@@ -74,7 +74,7 @@
                 <x-sidebar-menu-item route="Sejarah Perusahaan" label="Sejarah Perusahaan"
                     currentRoute="{{ request()->route()->getName() }}">
                     <svg xmlns="http://www.w3.org/2000/svg" height="1em"
-                        viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                        viewBox="0 0 512 512"><!-- ! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
                         <path class="{{ request()->is('CompanyHistory') ? 'fill-white' : '' }}"
                             d="M256 0a256 256 0 1 1 0 512A256 256 0 1 1 256 0zM232 120V256c0 8 4 15.5 10.7 20l96 64c11 7.4 25.9 4.4 33.3-6.7s4.4-25.9-6.7-33.3L280 243.2V120c0-13.3-10.7-24-24-24s-24 10.7-24 24z" />
                     </svg>

@@ -21,7 +21,7 @@
                             <div class="error-alert relative w-full mt-3 p-4 text-white bg-red-500 rounded-lg">
                                 {{ $message }}</div>
                         @enderror
-                    </div>
+                    </div>  
                     <div class="flex flex-col p-4 gap-1" id="input-histories-year">
                         <label for="histories-year" class="text-base text-slate-600 font-semibold">Timeline Sejarah
                             Perusahaan</label>

@@ -20,6 +20,8 @@ return new class extends Migration
             )->cascadeOnDelete();
             $table->string('body');
             $table->string('phone_number');
+            $table->string('email');
+            $table->string('status');
             $table->timestamps();
         });
     }

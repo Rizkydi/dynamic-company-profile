@@ -639,8 +639,8 @@ progress {
 }
 
 .img-fluid {
-    max-width: 100%;
-    height: auto;
+    width: 100%;
+    height: 100%;   
 }
 
 .img-thumbnail {
@@ -4501,11 +4501,11 @@ fieldset:disabled .btn {
     --bs-accordion-btn-icon-transform: rotate(-180deg);
     --bs-accordion-btn-icon-transition: transform 0.2s ease-in-out;
     --bs-accordion-btn-active-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23e6b400'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
-    --bs-accordion-btn-focus-border-color: #ffe480;
+    --bs-accordion-btn-focus-border-color: #91C8E4;
     --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem rgba(255, 200, 0, 0.25);
     --bs-accordion-body-padding-x: 1.25rem;
     --bs-accordion-body-padding-y: 1rem;
-    --bs-accordion-active-color: #e6b400;
+    --bs-accordion-active-color: #333A73;
     --bs-accordion-active-bg: #fffae6;
 }
 
@@ -6231,7 +6231,7 @@ fieldset:disabled .btn {
     left: 15%;
     padding-top: 1.25rem;
     padding-bottom: 1.25rem;
-    color: #fff;
+    color: #313131;
     text-align: center;
     z-index: 100;
 }
@@ -11293,7 +11293,7 @@ p {
         Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
         "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-size: 0.95rem;
-    color: #D9D9D9;
+    color: #fff;
     letter-spacing: 0.0625em;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active,
@@ -11343,7 +11343,7 @@ header.masthead {
     padding-bottom: 6rem;
     text-align: center;
     color: #fff;
-    background-image: url("/assets/img/bg-image-2.jpg");
+    background-image: url("/assets/img/hero.png");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -11412,7 +11412,7 @@ header.masthead .masthead-heading {
     position: absolute;
     width: 100%;
     height: 100%;
-    background: rgba(255, 200, 0, 0.9);
+    /* background: rgb(153, 204, 255); */
     align-items: center;
     justify-content: center;
     opacity: 0;

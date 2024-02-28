@@ -25,21 +25,16 @@
     <section class="page-section-visi-misi bg-light">
         <div class="row">
             <div class="col-6 d-flex align-items-center flex-column gap-2">
-                <span class="visi-misi-title">visi</span>
+                <span class="visi-misi-title">Visi</span>
                 <p class="visi-misi-paragraph" style="text-align: justify">
-                    Menjadi sebuah perusahaan konstruksi yang mengutamakan kualitas terbaik untuk jasa layanan kami,
-                    dengan menjadi mitra yang mengedepankan intergritas serta kepercayaan bersama klien demi
-                    menghasilkan proyek terbaik.
+                Menjadi perusahaan penyedia solusi IT TERDEPAN di Indonesia dengan mengedepankan kolaborasi demi kesuksesan bersama dan menebar manfaat ke masyarakat luas.
                 </p>
             </div>
             <div class="col-6 d-flex align-items-center flex-column gap-2">
-                <span class="visi-misi-title">misi</span>
+                <span class="visi-misi-title">Misi</span>
                 <ul>
-                    <li class="visi-misi-paragraph">Memberikan kontribusi dan nilai terbaik kami agar tercapai
-                        kesuksesan dalam proyek serta agar
-                        dapat menjaga hubungan yang baik dengan mitra ataupun klien kami.</li>
-                    <li class="visi-misi-paragraph">hubungan yang baik dengan mitra ataupun klien kami.
-                        Terus</li>
+                    <li class="visi-misi-paragraph">Memberikan layanan teknologi informasi kepada perusahaan-perusahaan (B2B) berupa konsultasi maupun solusi teknologi.</li>
+                    <li class="visi-misi-paragraph">Berinisiatif maupun berkontribusi aktif dalam riset dan pengembangan teknologi inovatif, tepat guna, dan aplikatif.</li>
                 </ul>
             </div>
         </div>
@@ -49,9 +44,9 @@
         @include('layouts.landing_page.includes.company_history')
     </section>
 
-    <section class="page-section bg-light " id="excellence">
+    <!-- <section class="page-section bg-light " id="excellence">
         @include('layouts.landing_page.includes.company_excellences')
-    </section>
+    </section> -->
 
     <section class="page-section" id="service">
         @include('layouts.landing_page.includes.company_services')

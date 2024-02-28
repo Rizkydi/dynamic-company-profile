@@ -1,7 +1,7 @@
     <nav class="navbar navbar-expand-lg navbar-white fixed-top" id="mainNav">
         <div class="container">
             @foreach ($companyProfile as $item)
-                <a class="" href="#page-top"><img src="{{ asset($item->website_logo) }}" alt="..." /></a>
+                <a class="" href="#page-top"><img src="{{ asset($item->website_logo) }}" alt="..." style="height: 40px;" /></a>
                 <span class="text-uppercase"
                     style="font-size: 1rem;margin-left: 1rem;font-family: Poppins;color: #fff;font-weight: bold">
                     {{ $item->name }}
@@ -15,12 +15,12 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
                     <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#excellence">Keunggulan</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#service">Service</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                    <!-- <li class="nav-item"><a class="nav-link" href="#excellence">Keunggulan</a></li> -->
+                    <li class="nav-item"><a class="nav-link" href="#service">Product</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#portfolio">Project</a></li>
                     <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
                     <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
-                    @auth
+                    <!-- @auth
                         <div class="dropdown profile-picture-container">
                             <img src="{{ asset('assets/img/bruce-mars.jpg') }}" alt="profile_picture"
                                 class="profile-picture-image rounded-circle dropdown-toggle" id="dropdownMenuButton1"
@@ -36,14 +36,14 @@
                                     <li><button class="dropdown-item" type="submit">Logout</button></li>
                                 </form>
                             </ul>
-                        @endauth
+                        @endauth -->
                         @guest
                             <div class="nav-item d-flex gap-1">
-                                <li class="nav-item"><a class="btn btn-primary text-white fw-bold"
-                                        href="{{ route('login') }}">Login</a></li>
-                                <li class="nav-item"><a class="btn btn-secondary text-white fw-bold"
+                                <!-- <li class="nav-item"><a class="btn btn-primary text-white fw-bold"
+                                        href="{{ route('login') }}">Login</a></li> -->
+                                <!-- <li class="nav-item"><a class="btn btn-secondary text-white fw-bold"
                                         href="{{ route('register') }}">Register</a>
-                                </li>
+                                </li> -->
                             </div>
                         @endguest
                     </div>

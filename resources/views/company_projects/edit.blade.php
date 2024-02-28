@@ -6,8 +6,7 @@
                 <h3>Edit Proyek Perusahaan</h3>
             </div>
             <section class="h-full flex flex-col  bg-white shadow-soft-lg rounded-lg font-poppins">
-                <form action="{{ route('company_projects.update', $companyProject->id) }}" method="post"
-                    enctype="multipart/form-data">
+                <form action="{{ route('company_projects.update', $companyProject->id) }}" method="post" enctype="multipart/form-data">
                     @csrf
                     @method('PUT')
                     <input type="hidden" name="id" class="id" value="{{ $companyProject->id }}">
@@ -25,7 +24,7 @@
                     <div class="flex flex-col p-4 gap-1" id="input-project-client">
                         <label for="project-client" class="text-base text-slate-600 font-semibold">Deskripsi
                             Proyek</label>
-                        <input type="text" id="project-client" name="project-client" placeholder="Nama Klien Perusahaan"
+                        <input type="text" id="project-description" name="project-description" placeholder="Nama Klien Perusahaan"
                             value="{{ $companyProject->description }}"
                             class="focus:shadow-soft-primary-outline text-sm leading-5.6 ease-soft block w-full appearance-none rounded-lg border border-solid border-gray-300 bg-white bg-clip-padding px-3 py-2 font-normal text-gray-700 outline-none transition-all placeholder:text-gray-500 focus:border-fuchsia-300 focus:outline-none">
                         @error('project-client')
@@ -40,7 +39,7 @@
                             <input type="file" id="project-img" name="project-img"
                                 class="focus:shadow-soft-primary-outline text-sm leading-5.6 ease-soft block w-full appearance-none rounded-lg border border-solid border-gray-300 bg-white bg-clip-padding px-3 py-2 font-normal text-gray-700 outline-none transition-all placeholder:text-gray-500 focus:border-fuchsia-300 focus:outline-none">
                             <img class="self-center w-20 h-20 rounded" id="img-preview"
-                                src="{{ $companyProject->client_image_url }}" alt="img-default">
+                                src="{{ $companyProject->image_url }}" alt="img-default">
                         </div>
                         @error('project-img')
                             <div class="error-alert relative w-full mt-3 p-4 text-white bg-red-500 rounded-lg">
@@ -68,7 +67,7 @@
                     }
                     reader.readAsDataURL(file);
                 } else {
-                    $('#image-preview').attr('src', '{{ $companyProject->client_image_url }}');
+                    $('#image-preview').attr('src', '{{ $companyProject->image_url }}');
                 }
             });
         });

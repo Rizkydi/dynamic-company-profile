@@ -13,6 +13,8 @@ return new class extends Migration
     {
         Schema::create('company_histories', function (Blueprint $table) {
             $table->id();
+            $table->string('year');
+            $table->string('title');
             $table->text('description')->nullable();
             $table->string('image_url');
             $table->timestamps();

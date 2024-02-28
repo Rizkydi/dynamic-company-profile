@@ -23,8 +23,8 @@ class UpdateCompanyFaq extends FormRequest
     {
         return [
             'id' => 'required',
-            'faq-question' => 'required|regex:/^[\p{L}\s\-.,?!]+$/u|max:255',
-            'faq-answer' => 'required|regex:/^[\p{L}\s\-.,?!]+$/u|max:255',
+            'faq-question' => 'required',
+            'faq-answer' => 'required',
         ];
     }
 }

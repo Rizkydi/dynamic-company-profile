@@ -10,7 +10,7 @@ use App\Http\Requests\CompanyFaq\StoredCompanyFaq;
 use App\Http\Requests\CompanyFaq\UpdateCompanyFaq;
 use Illuminate\Http\RedirectResponse;
 
-class CompanyFaqController extends Controller
+class  CompanyFaqController extends Controller
 {
 
     public function __construct(private CompanyFaqService $companyFaq)

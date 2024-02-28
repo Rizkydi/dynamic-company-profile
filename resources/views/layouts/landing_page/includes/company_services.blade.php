@@ -1,7 +1,7 @@
 <div class="container">
     <div class="text-center">
-        <h2 class="section-heading text-uppercase">Layanan</h2>
-        <h3 class="section-subheading text-muted">PT. Anilo Adikarya Sentosa</h3>
+        <h2 class="section-heading text-uppercase">Solusi Inovasi Anilo</h2>
+        <!-- <h3 class="section-subheading text-muted"></h3> -->
     </div>
     <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
         <div class="carousel-indicators">
@@ -33,6 +33,4 @@
             <span class="visually-hidden">Next</span>
         </button>
     </div>
-
-
 </div>

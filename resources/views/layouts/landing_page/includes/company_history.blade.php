@@ -1,7 +1,7 @@
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Timeline Sejarah</h2>
-                    <h3 class="section-subheading text-muted">PT. Anilo Adikarya Sentosa.</h3>
+                    <h2 class="section-heading text-uppercase">Sejarah Perusahaan</h2>
+                    <!-- <h3 class="section-subheading text-muted"></h3> -->
                 </div>
                 <ul class="timeline">
                     @php $counter = 0; @endphp

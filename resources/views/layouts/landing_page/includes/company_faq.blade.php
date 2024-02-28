@@ -1,7 +1,7 @@
 <div class="container">
     <div class="text-center">
         <h2 class="section-heading text-uppercase">FAQ (Frequently Ask Question)</h2>
-        <h3 class="section-subheading text-muted">PT. Anilo Adikarya Sentosa</h3>
+        <!-- <h3 class="section-subheading text-muted"></h3> -->
     </div>
     <div class="accordion accordion-flush" id="accordionFlushExample">
         <div class="accordion accordion-flush" id="accordionFlushExample">

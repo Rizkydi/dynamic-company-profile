@@ -38,18 +38,20 @@ class CompanyTeamController extends Controller
     public function store(StoredCompanyTeam $request)
     {
         try {
+            error_log('Some message here.');
             $data = $request->validated();
             $this->companyTeam->createCompanyTeam($data);
             return redirect()->back()->with('toast_success', 'Berhasil menambahkan data');
         } catch (ValidationException $th) {
+            // Jika terjadi kesalahan validasi, kembalikan dengan pesan kesalahan
             return redirect()->back()
                 ->withErrors($th->validator)
                 ->withInput();
         }
     }
-
+    
     /**
-     * Display the specified resource.
+     * Display the specified resource.`
      */
     public function show(CompanyTeam $companyTeam)
     {

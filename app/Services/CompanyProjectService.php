@@ -21,20 +21,19 @@ class CompanyProjectService
         return $companyProject;
     }
 
-    public function updateCompanyProject(array $companyProjectData)
+    public function updateCompanyProject($id, array $companyProjectData)
     {
-        $companyProject = companyProject::find($companyProjectData['id']);
-        $existingImageUrl = $companyProject->client_image_url;
+        $companyProject = companyProject::find($id);
+        $existingImageUrl = $companyProject->image_url;
 
         $updateData = [
             'client_name' => $companyProjectData['project-client'],
-            'project_name' => $companyProjectData['project-name'],
             'description' => $companyProjectData['project-description'],
         ];
 
         if (isset($companyProjectData['project-img']) && $companyProjectData['project-img']->isValid()) {
             $newImageUrl = $this->uploadImage($companyProjectData['project-img'], $this->imgPath);
-            $updateData['client_image_url'] = $newImageUrl;
+            $updateData['image_url'] = $newImageUrl;
 
             if ($existingImageUrl) {
                 unlink(public_path($existingImageUrl));

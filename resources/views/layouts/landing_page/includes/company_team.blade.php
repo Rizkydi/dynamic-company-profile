@@ -1,7 +1,7 @@
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Team</h2>
-                    <h3 class="section-subheading text-muted">PT. Anilo Adikarya Sentosa</h3>
+                    <h2 class="section-heading text-uppercase">Our Team</h2>
+                    <!-- <h3 class="section-subheading text-muted"></h3> -->
                 </div>
                 <div class="row">
                     @foreach ($companyTeam as $index => $item)
