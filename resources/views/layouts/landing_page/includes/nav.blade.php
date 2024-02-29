@@ -14,7 +14,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">Sejarah</a></li>
                     <!-- <li class="nav-item"><a class="nav-link" href="#excellence">Keunggulan</a></li> -->
                     <li class="nav-item"><a class="nav-link" href="#service">Product</a></li>
                     <li class="nav-item"><a class="nav-link" href="#portfolio">Project</a></li>

@@ -28,6 +28,7 @@ class CompanyProjectService
 
         $updateData = [
             'client_name' => $companyProjectData['project-client'],
+            'project_name' => $companyProjectData['project-name'],
             'description' => $companyProjectData['project-description'],
         ];
 

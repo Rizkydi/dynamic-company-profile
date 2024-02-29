@@ -26,7 +26,7 @@
         <div class="row">
             <div class="col-6 d-flex align-items-center flex-column gap-2">
                 <span class="visi-misi-title">Visi</span>
-                <p class="visi-misi-paragraph" style="text-align: justify">
+                <p class="visi-misi-paragraph" style="text-align: center;">
                 Menjadi perusahaan penyedia solusi IT TERDEPAN di Indonesia dengan mengedepankan kolaborasi demi kesuksesan bersama dan menebar manfaat ke masyarakat luas.
                 </p>
             </div>
